@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="java.js" defer></script>
+   
   </head>
   <body>
     <section>
@@ -31,11 +31,14 @@
           incidunt soluta fugit exercitationem?
         </p>
       </div>
-      <br>
-      <div class="foto">
-        <img class="img" src="devi1500.jpg" alt="foto desenvolvedor" />
-        
-      </div>
+      <br />
+      
+        <picture>
+          <source media="(min-width:500 px )" srcset="imagemn200.jpg" type="image/jpg">
+          <source media="(max-width:900 px )" srcset="imagemn800.jpg" type="image/jpg" />
+          <img class="img" src="devi1500.jpg" alt="foto desenvolvedor" />
+        </picture>
+      
       <div class="tex2">
         <h1>css para estilos</h1>
         <h2>estilos diferentes para modelos incriveis</h2>
@@ -47,7 +50,7 @@
           natus quas?
         </p>
       </div>
-      <br>
+      <br />
       <footer>&copy;devb</footer>
     </section>
   </body>
