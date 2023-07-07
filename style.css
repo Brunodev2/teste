@@ -32,12 +32,15 @@ section {
 @media (max-width: 500px) {
   section {
     width: 300px;
+    
     .li {
       position: relative;
       right: 10px;
     }
+   
+   
     
-  }
+}
 }
 .li {
   position: relative;
@@ -81,7 +84,7 @@ body {
   margin-top: 20px;
   width: 1200px;
 
-  align-content: center;
+  
   margin-left: 124px;
 }
 
@@ -91,7 +94,7 @@ body {
 }
 
 .missao {
-  width: 600px;
+  width: 400px;
   height: 400px;
   background-color: rgb(215, 210, 203);
   border-radius: 10px;
@@ -103,7 +106,7 @@ body {
 }
 
 .contact {
-  width: 500px;
+  width: 400px;
   height: 500px;
   background-color: beige;
   margin: auto;
