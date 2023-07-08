@@ -15,33 +15,50 @@ section {
 @media (max-width: 1200px) {
   section {
     width: 900px;
+   
   }
 }
 
 @media (max-width: 700px) {
   section {
     width: 600px;
-    
+
     .li {
       position: relative;
       right: 10px;
     }
+    .foto{
+      position: static;
+     margin-left:60px;
+    }
+    
   }
 }
+
+
 
 @media (max-width: 500px) {
   section {
     width: 300px;
-    
+
     .li {
       position: relative;
       right: 10px;
     }
    
-   
+    .foto{
+      position: static;
+     margin-left:0px;
+    }
     
+  }
 }
+
+.foto{
+  position: static;
+ margin-left:120px;
 }
+
 .li {
   position: relative;
   text-align: right;
@@ -84,7 +101,6 @@ body {
   margin-top: 20px;
   width: 1200px;
 
-  
   margin-left: 124px;
 }
 
